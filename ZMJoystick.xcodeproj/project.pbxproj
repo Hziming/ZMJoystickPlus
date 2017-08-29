@@ -16,6 +16,17 @@
 		14CD14991ED3C81F00790C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CD14971ED3C81F00790C83 /* LaunchScreen.storyboard */; };
 		14CD14A41ED3C81F00790C83 /* ZMJoystickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD14A31ED3C81F00790C83 /* ZMJoystickTests.m */; };
 		14CD14AF1ED3C81F00790C83 /* ZMJoystickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD14AE1ED3C81F00790C83 /* ZMJoystickUITests.m */; };
+		14CD14BE1ED3C8B000790C83 /* ZMJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD14BD1ED3C8B000790C83 /* ZMJoystick.m */; };
+		14CD14C01ED3C8C000790C83 /* ZMJoystick.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CD14BF1ED3C8C000790C83 /* ZMJoystick.xib */; };
+		14CD14C31ED3C9E900790C83 /* dpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CD14C11ED3C9E900790C83 /* dpad.png */; };
+		14CD14C41ED3C9E900790C83 /* joystick.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CD14C21ED3C9E900790C83 /* joystick.png */; };
+		14CD14C71ED5578800790C83 /* DoubleJoysticks.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD14C61ED5578800790C83 /* DoubleJoysticks.m */; };
+		14CD14C91ED557A300790C83 /* DoubleJoysticks.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CD14C81ED557A300790C83 /* DoubleJoysticks.xib */; };
+		14CD14CC1ED5865200790C83 /* StartTopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD14CB1ED5865200790C83 /* StartTopItem.m */; };
+		14CD14CF1ED5891300790C83 /* StartTopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD14CE1ED5891300790C83 /* StartTopModel.m */; };
+		14CD14D21ED6767200790C83 /* ZMFineAdjustment.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD14D11ED6767200790C83 /* ZMFineAdjustment.m */; };
+		14CD14D41ED6768300790C83 /* ZMFineAdjustment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CD14D31ED6768300790C83 /* ZMFineAdjustment.xib */; };
+		14CD14D71ED6A46900790C83 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD14D61ED6A46900790C83 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,23 @@
 		14CD14AA1ED3C81F00790C83 /* ZMJoystickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMJoystickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CD14AE1ED3C81F00790C83 /* ZMJoystickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMJoystickUITests.m; sourceTree = "<group>"; };
 		14CD14B01ED3C81F00790C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CD14BC1ED3C8B000790C83 /* ZMJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMJoystick.h; sourceTree = "<group>"; };
+		14CD14BD1ED3C8B000790C83 /* ZMJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMJoystick.m; sourceTree = "<group>"; };
+		14CD14BF1ED3C8C000790C83 /* ZMJoystick.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMJoystick.xib; sourceTree = "<group>"; };
+		14CD14C11ED3C9E900790C83 /* dpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpad.png; sourceTree = "<group>"; };
+		14CD14C21ED3C9E900790C83 /* joystick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick.png; sourceTree = "<group>"; };
+		14CD14C51ED5578800790C83 /* DoubleJoysticks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleJoysticks.h; sourceTree = "<group>"; };
+		14CD14C61ED5578800790C83 /* DoubleJoysticks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleJoysticks.m; sourceTree = "<group>"; };
+		14CD14C81ED557A300790C83 /* DoubleJoysticks.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleJoysticks.xib; sourceTree = "<group>"; };
+		14CD14CA1ED5865200790C83 /* StartTopItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartTopItem.h; sourceTree = "<group>"; };
+		14CD14CB1ED5865200790C83 /* StartTopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartTopItem.m; sourceTree = "<group>"; };
+		14CD14CD1ED5891300790C83 /* StartTopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartTopModel.h; sourceTree = "<group>"; };
+		14CD14CE1ED5891300790C83 /* StartTopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartTopModel.m; sourceTree = "<group>"; };
+		14CD14D01ED6767200790C83 /* ZMFineAdjustment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMFineAdjustment.h; sourceTree = "<group>"; };
+		14CD14D11ED6767200790C83 /* ZMFineAdjustment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMFineAdjustment.m; sourceTree = "<group>"; };
+		14CD14D31ED6768300790C83 /* ZMFineAdjustment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMFineAdjustment.xib; sourceTree = "<group>"; };
+		14CD14D51ED6A46900790C83 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		14CD14D61ED6A46900790C83 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +131,27 @@
 		14CD14851ED3C81F00790C83 /* ZMJoystick */ = {
 			isa = PBXGroup;
 			children = (
+				14CD14C11ED3C9E900790C83 /* dpad.png */,
+				14CD14C21ED3C9E900790C83 /* joystick.png */,
+				14CD14D51ED6A46900790C83 /* TestViewController.h */,
+				14CD14D61ED6A46900790C83 /* TestViewController.m */,
 				14CD14891ED3C81F00790C83 /* AppDelegate.h */,
 				14CD148A1ED3C81F00790C83 /* AppDelegate.m */,
 				14CD148C1ED3C81F00790C83 /* ViewController.h */,
 				14CD148D1ED3C81F00790C83 /* ViewController.m */,
+				14CD14CA1ED5865200790C83 /* StartTopItem.h */,
+				14CD14CB1ED5865200790C83 /* StartTopItem.m */,
+				14CD14CD1ED5891300790C83 /* StartTopModel.h */,
+				14CD14CE1ED5891300790C83 /* StartTopModel.m */,
+				14CD14BC1ED3C8B000790C83 /* ZMJoystick.h */,
+				14CD14BD1ED3C8B000790C83 /* ZMJoystick.m */,
+				14CD14BF1ED3C8C000790C83 /* ZMJoystick.xib */,
+				14CD14D01ED6767200790C83 /* ZMFineAdjustment.h */,
+				14CD14D11ED6767200790C83 /* ZMFineAdjustment.m */,
+				14CD14D31ED6768300790C83 /* ZMFineAdjustment.xib */,
+				14CD14C51ED5578800790C83 /* DoubleJoysticks.h */,
+				14CD14C61ED5578800790C83 /* DoubleJoysticks.m */,
+				14CD14C81ED557A300790C83 /* DoubleJoysticks.xib */,
 				14CD148F1ED3C81F00790C83 /* Main.storyboard */,
 				14CD14951ED3C81F00790C83 /* Assets.xcassets */,
 				14CD14971ED3C81F00790C83 /* LaunchScreen.storyboard */,
@@ -253,7 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				14CD14991ED3C81F00790C83 /* LaunchScreen.storyboard in Resources */,
+				14CD14C91ED557A300790C83 /* DoubleJoysticks.xib in Resources */,
+				14CD14C31ED3C9E900790C83 /* dpad.png in Resources */,
 				14CD14961ED3C81F00790C83 /* Assets.xcassets in Resources */,
+				14CD14C41ED3C9E900790C83 /* joystick.png in Resources */,
+				14CD14D41ED6768300790C83 /* ZMFineAdjustment.xib in Resources */,
+				14CD14C01ED3C8C000790C83 /* ZMJoystick.xib in Resources */,
 				14CD14911ED3C81F00790C83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				14CD148E1ED3C81F00790C83 /* ViewController.m in Sources */,
+				14CD14BE1ED3C8B000790C83 /* ZMJoystick.m in Sources */,
 				14CD148B1ED3C81F00790C83 /* AppDelegate.m in Sources */,
 				14CD14941ED3C81F00790C83 /* ZMJoystick.xcdatamodeld in Sources */,
+				14CD14D71ED6A46900790C83 /* TestViewController.m in Sources */,
+				14CD14CF1ED5891300790C83 /* StartTopModel.m in Sources */,
+				14CD14D21ED6767200790C83 /* ZMFineAdjustment.m in Sources */,
+				14CD14C71ED5578800790C83 /* DoubleJoysticks.m in Sources */,
+				14CD14CC1ED5865200790C83 /* StartTopItem.m in Sources */,
 				14CD14881ED3C81F00790C83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 73B4299AVM;
 				INFOPLIST_FILE = ZMJoystick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hzming.www.ZMJoystick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 73B4299AVM;
 				INFOPLIST_FILE = ZMJoystick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hzming.www.ZMJoystick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +578,7 @@
 				14CD14B51ED3C81F00790C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14CD14B61ED3C81F00790C83 /* Build configuration list for PBXNativeTarget "ZMJoystickTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +587,7 @@
 				14CD14B81ED3C81F00790C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14CD14B91ED3C81F00790C83 /* Build configuration list for PBXNativeTarget "ZMJoystickUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +596,7 @@
 				14CD14BB1ED3C81F00790C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
